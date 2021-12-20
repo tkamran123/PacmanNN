@@ -21,7 +21,8 @@ Remarks:
 	the model has already been trained and wins most of the time
 	the model has been optimized, it requires less then 30k episodes to converge
 
-
+If you want to test training then model_trained = false otherwise it should remain true as it is in the code.
+model_trained can be cahnged in line 26 of pacmanDQN_Agents.py 
 ================================================================================
 Extra Credit Explained: 
 
