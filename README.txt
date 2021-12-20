@@ -29,9 +29,9 @@ It is less sensitive to outliers than torch.nn.MSELoss and in some cases prevent
 it’s actually just moving Pac-man around the screen based on what it has already learned, but adding all of those experiences to the buffer. 
 Then, I can take experiences from storage and replay them to the agent so that it can learn from them and take better actions in the future.
 
-As I start from the beggining the graphs of loss/iteration starts to converge after some time and then there's a point where the graphs converge and after a that certain point even if I train the model more and more it doesn't effect the graphs anymore.
+As I start the graphs, the loss/iteration slowly begin to converge after some time and then there's a point where the graphs converge and after a certain point even if I train the over and over it doesn't effect the graphs anymore.
 
-I tried the classical DQN architecture uses a single NN to predict directly the value of all possible actions.
+I tried the classical DQN architecture using a single NN to predict directly the value of all possible actions.
 
 DQN.py and pacmanDQN_Agents.py are the two main files that I added which does most of our NN work. 
 
